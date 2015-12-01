@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <QuickUnifyPlatform/QuickUnifyPlatform.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    [[QuickUnifyPlatform getInstance]qupInit];
     return YES;
 }
 
@@ -30,7 +32,22 @@
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
 
+#ifdef __IPHONE_9_0
+-(BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options{
+    [[QuickUnifyPlatform getInstance]qupHandleWithapplication:app openURL:url sourceApplication:[options valueForKey:@"UIApplicationOpenURLOptionsSourceApplicationKey"] annotation:nil];
+    return YES;
+}
+#else
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    [[QuickUnifyPlatform getInstance] qupHandleWithapplication:application openURL:url sourceApplication:sourceApplication annotation:annotation];
+    
+    return YES;
+}
+#endif
+
 - (void)applicationWillEnterForeground:(UIApplication *)application {
+    [[QuickUnifyPlatform getInstance]qupOnPause];
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
 }
 

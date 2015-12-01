@@ -10,9 +10,33 @@
 		62843F051BF5E4A2001A079F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62843F041BF5E4A2001A079F /* main.m */; };
 		62843F081BF5E4A2001A079F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62843F071BF5E4A2001A079F /* AppDelegate.m */; };
 		62843F0B1BF5E4A2001A079F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62843F0A1BF5E4A2001A079F /* ViewController.m */; };
-		62843F0E1BF5E4A2001A079F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62843F0C1BF5E4A2001A079F /* Main.storyboard */; };
 		62843F101BF5E4A2001A079F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62843F0F1BF5E4A2001A079F /* Assets.xcassets */; };
 		62843F131BF5E4A2001A079F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62843F111BF5E4A2001A079F /* LaunchScreen.storyboard */; };
+		62843F8D1BF97737001A079F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62843F8C1BF97737001A079F /* Main.storyboard */; };
+		62843FDF1BF97DA5001A079F /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 62843FD21BF97DA5001A079F /* libstdc++.tbd */; };
+		62843FE01BF97DA5001A079F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 62843FD31BF97DA5001A079F /* libsqlite3.tbd */; };
+		62843FE11BF97DA5001A079F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 62843FD41BF97DA5001A079F /* libz.tbd */; };
+		62843FE21BF97DA5001A079F /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62843FD51BF97DA5001A079F /* AssetsLibrary.framework */; };
+		62843FE31BF97DA5001A079F /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62843FD61BF97DA5001A079F /* AdSupport.framework */; };
+		62843FE41BF97DA5001A079F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62843FD71BF97DA5001A079F /* MessageUI.framework */; };
+		62843FE51BF97DA5001A079F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62843FD81BF97DA5001A079F /* UIKit.framework */; };
+		62843FE61BF97DA5001A079F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62843FD91BF97DA5001A079F /* Foundation.framework */; };
+		62843FE71BF97DA5001A079F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62843FDA1BF97DA5001A079F /* CoreGraphics.framework */; };
+		62843FE81BF97DA5001A079F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62843FDB1BF97DA5001A079F /* QuartzCore.framework */; };
+		62843FE91BF97DA5001A079F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62843FDC1BF97DA5001A079F /* SystemConfiguration.framework */; };
+		62843FEA1BF97DA5001A079F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62843FDD1BF97DA5001A079F /* AddressBook.framework */; };
+		62843FEB1BF97DA5001A079F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62843FDE1BF97DA5001A079F /* CoreTelephony.framework */; };
+		628440131BF97FD7001A079F /* QuickManifest.plist in Resources */ = {isa = PBXBuildFile; fileRef = 628440031BF97FD7001A079F /* QuickManifest.plist */; };
+		628440141BF97FD7001A079F /* ATSMS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 628440081BF97FD7001A079F /* ATSMS.framework */; };
+		628440151BF97FD7001A079F /* Encrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 628440091BF97FD7001A079F /* Encrypt.framework */; };
+		628440161BF97FD7001A079F /* Log.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6284400A1BF97FD7001A079F /* Log.framework */; };
+		628440171BF97FD7001A079F /* NDJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6284400B1BF97FD7001A079F /* NDJSON.framework */; };
+		628440181BF97FD7001A079F /* NDUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6284400C1BF97FD7001A079F /* NDUtility.framework */; };
+		628440191BF97FD7001A079F /* NetEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6284400D1BF97FD7001A079F /* NetEngine.framework */; };
+		6284401A1BF97FD7001A079F /* NdComPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6284400E1BF97FD7001A079F /* NdComPlatform.framework */; };
+		6284401B1BF97FD7001A079F /* NdComPlatformInt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6284400F1BF97FD7001A079F /* NdComPlatformInt.framework */; };
+		6284401C1BF97FD7001A079F /* NdComPlatform_SNS_Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 628440101BF97FD7001A079F /* NdComPlatform_SNS_Resources.bundle */; };
+		6284401D1BF97FD7001A079F /* QuickUnifyPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 628440121BF97FD7001A079F /* QuickUnifyPlatform.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +46,34 @@
 		62843F071BF5E4A2001A079F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		62843F091BF5E4A2001A079F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		62843F0A1BF5E4A2001A079F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		62843F0D1BF5E4A2001A079F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62843F0F1BF5E4A2001A079F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62843F121BF5E4A2001A079F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62843F141BF5E4A2001A079F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62843F8C1BF97737001A079F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		62843FD21BF97DA5001A079F /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		62843FD31BF97DA5001A079F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		62843FD41BF97DA5001A079F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		62843FD51BF97DA5001A079F /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		62843FD61BF97DA5001A079F /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		62843FD71BF97DA5001A079F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		62843FD81BF97DA5001A079F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		62843FD91BF97DA5001A079F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		62843FDA1BF97DA5001A079F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		62843FDB1BF97DA5001A079F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		62843FDC1BF97DA5001A079F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		62843FDD1BF97DA5001A079F /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		62843FDE1BF97DA5001A079F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		628440031BF97FD7001A079F /* QuickManifest.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QuickManifest.plist; sourceTree = "<group>"; };
+		628440081BF97FD7001A079F /* ATSMS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ATSMS.framework; sourceTree = "<group>"; };
+		628440091BF97FD7001A079F /* Encrypt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Encrypt.framework; sourceTree = "<group>"; };
+		6284400A1BF97FD7001A079F /* Log.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Log.framework; sourceTree = "<group>"; };
+		6284400B1BF97FD7001A079F /* NDJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NDJSON.framework; sourceTree = "<group>"; };
+		6284400C1BF97FD7001A079F /* NDUtility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NDUtility.framework; sourceTree = "<group>"; };
+		6284400D1BF97FD7001A079F /* NetEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NetEngine.framework; sourceTree = "<group>"; };
+		6284400E1BF97FD7001A079F /* NdComPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NdComPlatform.framework; sourceTree = "<group>"; };
+		6284400F1BF97FD7001A079F /* NdComPlatformInt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NdComPlatformInt.framework; sourceTree = "<group>"; };
+		628440101BF97FD7001A079F /* NdComPlatform_SNS_Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NdComPlatform_SNS_Resources.bundle; sourceTree = "<group>"; };
+		628440121BF97FD7001A079F /* QuickUnifyPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuickUnifyPlatform.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +81,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62843FDF1BF97DA5001A079F /* libstdc++.tbd in Frameworks */,
+				628440171BF97FD7001A079F /* NDJSON.framework in Frameworks */,
+				6284401B1BF97FD7001A079F /* NdComPlatformInt.framework in Frameworks */,
+				62843FE01BF97DA5001A079F /* libsqlite3.tbd in Frameworks */,
+				62843FE11BF97DA5001A079F /* libz.tbd in Frameworks */,
+				62843FE21BF97DA5001A079F /* AssetsLibrary.framework in Frameworks */,
+				62843FE31BF97DA5001A079F /* AdSupport.framework in Frameworks */,
+				62843FE41BF97DA5001A079F /* MessageUI.framework in Frameworks */,
+				628440181BF97FD7001A079F /* NDUtility.framework in Frameworks */,
+				628440151BF97FD7001A079F /* Encrypt.framework in Frameworks */,
+				6284401A1BF97FD7001A079F /* NdComPlatform.framework in Frameworks */,
+				6284401D1BF97FD7001A079F /* QuickUnifyPlatform.framework in Frameworks */,
+				62843FE51BF97DA5001A079F /* UIKit.framework in Frameworks */,
+				62843FE61BF97DA5001A079F /* Foundation.framework in Frameworks */,
+				62843FE71BF97DA5001A079F /* CoreGraphics.framework in Frameworks */,
+				62843FE81BF97DA5001A079F /* QuartzCore.framework in Frameworks */,
+				628440161BF97FD7001A079F /* Log.framework in Frameworks */,
+				62843FE91BF97DA5001A079F /* SystemConfiguration.framework in Frameworks */,
+				62843FEA1BF97DA5001A079F /* AddressBook.framework in Frameworks */,
+				62843FEB1BF97DA5001A079F /* CoreTelephony.framework in Frameworks */,
+				628440141BF97FD7001A079F /* ATSMS.framework in Frameworks */,
+				628440191BF97FD7001A079F /* NetEngine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,11 +128,13 @@
 		62843F021BF5E4A2001A079F /* 91Demo */ = {
 			isa = PBXGroup;
 			children = (
+				628440011BF97FD7001A079F /* BAIDUSDK */,
+				62843FEC1BF97DB0001A079F /* Frameworks */,
 				62843F061BF5E4A2001A079F /* AppDelegate.h */,
 				62843F071BF5E4A2001A079F /* AppDelegate.m */,
 				62843F091BF5E4A2001A079F /* ViewController.h */,
 				62843F0A1BF5E4A2001A079F /* ViewController.m */,
-				62843F0C1BF5E4A2001A079F /* Main.storyboard */,
+				62843F8C1BF97737001A079F /* Main.storyboard */,
 				62843F0F1BF5E4A2001A079F /* Assets.xcassets */,
 				62843F111BF5E4A2001A079F /* LaunchScreen.storyboard */,
 				62843F141BF5E4A2001A079F /* Info.plist */,
@@ -77,6 +149,93 @@
 				62843F041BF5E4A2001A079F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62843FEC1BF97DB0001A079F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62843FD21BF97DA5001A079F /* libstdc++.tbd */,
+				62843FD31BF97DA5001A079F /* libsqlite3.tbd */,
+				62843FD41BF97DA5001A079F /* libz.tbd */,
+				62843FD51BF97DA5001A079F /* AssetsLibrary.framework */,
+				62843FD61BF97DA5001A079F /* AdSupport.framework */,
+				62843FD71BF97DA5001A079F /* MessageUI.framework */,
+				62843FD81BF97DA5001A079F /* UIKit.framework */,
+				62843FD91BF97DA5001A079F /* Foundation.framework */,
+				62843FDA1BF97DA5001A079F /* CoreGraphics.framework */,
+				62843FDB1BF97DA5001A079F /* QuartzCore.framework */,
+				62843FDC1BF97DA5001A079F /* SystemConfiguration.framework */,
+				62843FDD1BF97DA5001A079F /* AddressBook.framework */,
+				62843FDE1BF97DA5001A079F /* CoreTelephony.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		628440011BF97FD7001A079F /* BAIDUSDK */ = {
+			isa = PBXGroup;
+			children = (
+				628440021BF97FD7001A079F /* Plist */,
+				628440041BF97FD7001A079F /* SDKSource */,
+				628440111BF97FD7001A079F /* SYFramework */,
+			);
+			path = BAIDUSDK;
+			sourceTree = "<group>";
+		};
+		628440021BF97FD7001A079F /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				628440031BF97FD7001A079F /* QuickManifest.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		628440041BF97FD7001A079F /* SDKSource */ = {
+			isa = PBXGroup;
+			children = (
+				628440051BF97FD7001A079F /* SDKFinal */,
+			);
+			path = SDKSource;
+			sourceTree = "<group>";
+		};
+		628440051BF97FD7001A079F /* SDKFinal */ = {
+			isa = PBXGroup;
+			children = (
+				628440061BF97FD7001A079F /* framework5 */,
+				628440101BF97FD7001A079F /* NdComPlatform_SNS_Resources.bundle */,
+			);
+			path = SDKFinal;
+			sourceTree = "<group>";
+		};
+		628440061BF97FD7001A079F /* framework5 */ = {
+			isa = PBXGroup;
+			children = (
+				628440071BF97FD7001A079F /* framework */,
+				6284400E1BF97FD7001A079F /* NdComPlatform.framework */,
+				6284400F1BF97FD7001A079F /* NdComPlatformInt.framework */,
+			);
+			path = framework5;
+			sourceTree = "<group>";
+		};
+		628440071BF97FD7001A079F /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				628440081BF97FD7001A079F /* ATSMS.framework */,
+				628440091BF97FD7001A079F /* Encrypt.framework */,
+				6284400A1BF97FD7001A079F /* Log.framework */,
+				6284400B1BF97FD7001A079F /* NDJSON.framework */,
+				6284400C1BF97FD7001A079F /* NDUtility.framework */,
+				6284400D1BF97FD7001A079F /* NetEngine.framework */,
+			);
+			path = framework;
+			sourceTree = "<group>";
+		};
+		628440111BF97FD7001A079F /* SYFramework */ = {
+			isa = PBXGroup;
+			children = (
+				628440121BF97FD7001A079F /* QuickUnifyPlatform.framework */,
+			);
+			path = SYFramework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +296,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				62843F131BF5E4A2001A079F /* LaunchScreen.storyboard in Resources */,
+				628440131BF97FD7001A079F /* QuickManifest.plist in Resources */,
+				62843F8D1BF97737001A079F /* Main.storyboard in Resources */,
 				62843F101BF5E4A2001A079F /* Assets.xcassets in Resources */,
-				62843F0E1BF5E4A2001A079F /* Main.storyboard in Resources */,
+				6284401C1BF97FD7001A079F /* NdComPlatform_SNS_Resources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,14 +319,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		62843F0C1BF5E4A2001A079F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				62843F0D1BF5E4A2001A079F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		62843F111BF5E4A2001A079F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -262,22 +415,46 @@
 		62843F181BF5E4A2001A079F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/91Demo/BAIDUSDK/SDKSource/SDKFinal/framework5/framework",
+					"$(PROJECT_DIR)/91Demo/BAIDUSDK/SDKSource/SDKFinal/framework5",
+					"$(PROJECT_DIR)/91Demo/BAIDUSDK/SYFramework",
+				);
 				INFOPLIST_FILE = 91Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "Genius..-1Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
 		62843F191BF5E4A2001A079F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/91Demo/BAIDUSDK/SDKSource/SDKFinal/framework5/framework",
+					"$(PROJECT_DIR)/91Demo/BAIDUSDK/SDKSource/SDKFinal/framework5",
+					"$(PROJECT_DIR)/91Demo/BAIDUSDK/SYFramework",
+				);
 				INFOPLIST_FILE = 91Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "Genius..-1Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};

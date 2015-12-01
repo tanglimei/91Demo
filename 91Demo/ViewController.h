@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+{
+    BOOL _isHidden;
+}
+@property (weak, nonatomic) IBOutlet UITextView *nofTextView;
 
 @end
 
